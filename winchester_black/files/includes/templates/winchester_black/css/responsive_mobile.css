@@ -46,7 +46,6 @@ body{margin:0;padding:0;}
 #logo{float:none;margin-left:10px;}
 #tagline{margin-left:10px;margin-top:15px;margin-bottom:0;}
 #top-wrapper{text-align:center;font-size:120%;}
-#menu{margin-top:-130px;width:98%;}
 .header-cart{float:right;width:50%;}
 #navMainSearch{float:left;width:53%;border:1px solid #000;display:none;}
 #top-middle{padding-bottom:0;border-bottom:none;}
@@ -146,9 +145,9 @@ ul.slimmenu.collapsed li ul.level2 li ul, ul.slimmenu1.collapsed li ul.level2 li
 #mobile-nav1{display:none;}
 
 
-#mobile-nav{background:#222;padding:10px 10px;border:none;margin-top:80px;}
+#mobile-nav{background:#222;padding:10px 10px;border:none;margin-top:10px;}
 #logoWrapper{float:none;width:100%;border-bottom:0px solid #dbdbce;padding-bottom:20px;}
-#menu{margin-top:-100px;width:100%;left:0;top:0;}
+#menu{width:100%;position:absolute;left:0;top:60px;z-index:9999;}
 #taglineWrapper{margin-top:-20px;}
 ul.level2 li{width:100% !important;}
 ul.slimmenu li{background:#111;}
@@ -205,7 +204,6 @@ body{margin:0;padding:0;}
 a#foo2_next, a#foo1_next {right:0;}
 .flexFooterCol{width:100% !important;}
 .slide-out-div{display:none;}
-/*ul.slimmenu{position:relative;z-index:1000;background:#fff;}*/
 .ffCcol4 i{padding:5px;}
 #BackToTop{top:500px;}
 .navSplitPagesResults{text-align:center;float:none;}
@@ -271,7 +269,6 @@ legend{border:none;font-size:130%;margin-left:0;margin-bottom:0;padding:0;color:
 #accountHistoryDefault .forward{}
 #addressBookDefault .button_add_address{padding-left:80px;padding-right:80px;}
 #addressBookDefault address{float:none;}
-/*ul.slimmenu.collapsed li ul.level2 li ul, ul.slimmenu1.collapsed li ul.level2 li ul{margin-left:-40px;}*/
 #checkoutPayment .floatingBox, #checkoutShipping .floatingBox{float:none;width:100%;}
 #checkoutConfirmDefault tr.cartTableHeading{display:none;}
 .ad{margin:30px auto 0 auto;display:block;}
@@ -290,9 +287,9 @@ legend{border:none;font-size:130%;margin-left:0;margin-bottom:0;padding:0;color:
 #mobile-nav1{display:none;}
 
 
-#mobile-nav{background:#222;padding:10px 10px;border:none;margin-top:80px;}
+#mobile-nav{background:#222;padding:10px 10px;border:none;}
 #logoWrapper{float:none;width:100%;border-bottom:0px solid #dbdbce;padding-bottom:20px;}
-#menu{margin-top:-100px;width:100%;left:0;top:0;}
+#menu{width:100%;position:absolute;left:0;top:60px;z-index:9999;}
 #taglineWrapper{margin-top:-20px;}
 ul.level2 li{width:100% !important;}
 ul.slimmenu li{background:#111;}

@@ -33,6 +33,7 @@ body{margin:0;padding:0;}
 #navMainWrapper{width:42%;margin-top:0;}
 
 
+.safari input [type=submit], input[type=submit]{ -webkit-appearance: none;-webkit-border-radius: 0;}
 
 
 }
@@ -80,7 +81,7 @@ a#foo2_next, a#foo1_next{right:0;}
 
 .ffCcol4 .flexFooterColText{text-align:center !important;}
 .ffCcol2{float:left;width:45%;}
-#menu{width:100%;margin-top:-105px;float:none;}
+#menu{width:100% !important;position:absolute;top:0;right:0;z-index:9999;}
 #navMainWrapper{width:42%;margin-top:0;}
 [class*="col"]{margin-left:0 !important;}
 .home-img{width:32%;}
@@ -89,8 +90,9 @@ ul.level2 li{width:100% !important;}
 ul.slimmenu li{background:#111;}
 ul.slimmenu li a{text-shadow:none;color:#fff;}
 ul.slimmenu li.menu-contact{width:100% !important;}
-#menu{left:0;}
 
+.safari #menu{top:30px;}
+.safari input [type=submit], input[type=submit]{ -webkit-appearance: none;-webkit-border-radius: 0;}
 
 
 
